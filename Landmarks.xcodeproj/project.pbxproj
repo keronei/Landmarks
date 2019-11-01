@@ -15,6 +15,9 @@
 		13AAB62E236C479A006C4A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AAB62C236C479A006C4A53 /* LaunchScreen.storyboard */; };
 		13AAB639236C479A006C4A53 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAB638236C479A006C4A53 /* LandmarksTests.swift */; };
 		13AAB644236C479A006C4A53 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAB643236C479A006C4A53 /* LandmarksUITests.swift */; };
+		13AAB652236C4FDA006C4A53 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAB651236C4FDA006C4A53 /* SwiftUIView.swift */; };
+		13AAB654236C5244006C4A53 /* MapsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AAB653236C5244006C4A53 /* MapsUIView.swift */; };
+		13AAB657236C5FC6006C4A53 /* Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png in Resources */ = {isa = PBXBuildFile; fileRef = 13AAB656236C5FC6006C4A53 /* Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		13AAB63F236C479A006C4A53 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AAB643236C479A006C4A53 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		13AAB645236C479A006C4A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13AAB651236C4FDA006C4A53 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		13AAB653236C5244006C4A53 /* MapsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsUIView.swift; sourceTree = "<group>"; };
+		13AAB656236C5FC6006C4A53 /* Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		13AAB615236C4798006C4A53 = {
 			isa = PBXGroup;
 			children = (
+				13AAB655236C5FA0006C4A53 /* Progress screenshots */,
 				13AAB620236C4798006C4A53 /* Landmarks */,
 				13AAB637236C479A006C4A53 /* LandmarksTests */,
 				13AAB642236C479A006C4A53 /* LandmarksUITests */,
@@ -102,6 +109,8 @@
 				13AAB621236C4798006C4A53 /* AppDelegate.swift */,
 				13AAB623236C4798006C4A53 /* SceneDelegate.swift */,
 				13AAB625236C4798006C4A53 /* ContentView.swift */,
+				13AAB651236C4FDA006C4A53 /* SwiftUIView.swift */,
+				13AAB653236C5244006C4A53 /* MapsUIView.swift */,
 				13AAB627236C479A006C4A53 /* Assets.xcassets */,
 				13AAB62C236C479A006C4A53 /* LaunchScreen.storyboard */,
 				13AAB62F236C479A006C4A53 /* Info.plist */,
@@ -134,6 +143,14 @@
 				13AAB645236C479A006C4A53 /* Info.plist */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		13AAB655236C5FA0006C4A53 /* Progress screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				13AAB656236C5FC6006C4A53 /* Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png */,
+			);
+			name = "Progress screenshots";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,7 @@
 			files = (
 				13AAB62E236C479A006C4A53 /* LaunchScreen.storyboard in Resources */,
 				13AAB62B236C479A006C4A53 /* Preview Assets.xcassets in Resources */,
+				13AAB657236C5FC6006C4A53 /* Simulator Screen Shot - iPhone 11 Pro Max - 2019-11-01 at 15.40.27.png in Resources */,
 				13AAB628236C479A006C4A53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +287,9 @@
 			files = (
 				13AAB622236C4798006C4A53 /* AppDelegate.swift in Sources */,
 				13AAB624236C4798006C4A53 /* SceneDelegate.swift in Sources */,
+				13AAB652236C4FDA006C4A53 /* SwiftUIView.swift in Sources */,
 				13AAB626236C4798006C4A53 /* ContentView.swift in Sources */,
+				13AAB654236C5244006C4A53 /* MapsUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
